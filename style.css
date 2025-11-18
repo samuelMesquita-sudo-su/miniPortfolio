@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #282828;
+    color: #fffcfc;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #222;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main {
+    background: #161616;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0055aa;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+h3 {
+    color: #0055aa;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h5 {
+    color: #0055aa;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+h1{
+    color: #0055aa;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 19px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background: #0055aa;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer a:hover {
+    background: #003f7a;
+}
+
+button {
+    background: #0055aa;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+
+img{
+    max-width: 30%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.engine {
+    background: #282828;
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.2s;
+}
+
+.engine img {
+    width: 100%;
+    height: auto;
+    max-height: 240px; 
+    object-fit: contain;
+    border-radius: 10px;
+    background: #ddd; 
+    margin-bottom: 12px;
+}
+
+
+.engine:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+
+.software {
+    background: #282828;
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.2s;
+}
+
+.software img {
+    width: 100%;
+    height: auto;
+    max-height: 240px; 
+    object-fit: contain;
+    border-radius: 10px;
+    background: #ddd; 
+    margin-bottom: 12px;
+}
+
+.software:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
